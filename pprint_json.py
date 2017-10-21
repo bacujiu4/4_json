@@ -2,6 +2,8 @@ import json
 
 
 def load_data(filepath):
+    f = open(filepath, 'r')
+    f.read()
     pass
 
 
