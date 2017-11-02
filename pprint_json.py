@@ -19,4 +19,4 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('file_path')
     args = parser.parse_args()
-    print(prettfy_json_data(load_data(args.file_path)))
+    print(prettify_json_data(load_data(args.file_path)))
