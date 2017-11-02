@@ -1,6 +1,3 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
-
 import json
 import argparse
 
@@ -10,13 +7,9 @@ def load_data(file_path):
         parsed_json_data = json.loads(raw_json_data)
     return parsed_json_data
 
-    #with open(file_path, 'r') as file_obj:
-    #    return json.loads(file_obj)
-
 def pretty_print_json(parsed_json_data):
     pretty_json_data = json.dumps(parsed_json_data, indent=4, ensure_ascii = False)
     return pretty_json_data
-    #return json.dumps(json.loads(), indent=2, ensure_ascii = False)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
