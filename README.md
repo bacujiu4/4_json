@@ -1,11 +1,12 @@
-# Prettify JSON
+# Форматоирование JSON
 
 Преобразует файл в формате JSON в удобочитаемый вид
 
-# Quickstart
+# Как использовать:
 Функция load_data модуля pprint_json принимает на вход имя файла с данными в формате JSON, возвращает данные в удобочитаемом виде.
 
-Example of script launch on Linux, Python 3.5:
+Для запуска необходим интерпретатор Python версии 3.5
+пример запуска на Linux:
 ```bash
 $ python pprint_json.py alco_shops.json
 {
@@ -73,7 +74,7 @@ $ python pprint_json.py alco_shops.json
       "type": "Feature"
     },
 ```
+На Windows запуск происходит аналогично
 
-# Project Goals
-
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+# Цели проекта
+Код создан в учебных целях в рамках учебного курса по веб-разработке - [DEVMAN.org](https://devman.org)
